@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	if versionFlag {
-		fmt.Println(version)
+		fmt.Println("0.1")
 		os.Exit(0)
 	}
 
